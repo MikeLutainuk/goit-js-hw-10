@@ -7,3 +7,4 @@ export default function findName(country) {
     return response.json();
   });
 }
+

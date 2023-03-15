@@ -55,10 +55,10 @@ function renderCountries(country) {
          
      return `<div>
             <img  src="${flags.svg}" alt="${name.official}" width="70" height="50">
-            <h2>${name.official}</h2>
-            <p>Capital: ${capital}</p>
-            <p>Population: ${population}</p>
-            <p>Languages: ${Object.values(languages)}</p>
+            <h2>${name.official} </h2>
+            <p>Capital: ${capital} </p>
+            <p>Population: ${population} </p>
+            <p>Languages: ${Object.values(languages)} </p>
             </div>`;
        
     })
